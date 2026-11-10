@@ -1,0 +1,25 @@
+# 비밀 정보
+.env
+
+# 데이터: 수집 원본은 data 브랜치(data/collected 워크트리)에, 가공 결과는 각자 로컬에
+data/*
+!data/README.md
+
+# 학습 산출물
+models/
+*.joblib
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 에디터, OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
