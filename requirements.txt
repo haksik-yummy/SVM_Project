@@ -1,0 +1,10 @@
+# 분석·학습용 패키지 (수집기 src/collect.py 는 표준 라이브러리만 사용)
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15          # parquet 저장
+scikit-learn>=1.5
+matplotlib>=3.8
+seaborn>=0.13
+holidays>=0.50       # 한국 공휴일 특성
+jupyterlab>=4.0
+ipykernel>=6.29
